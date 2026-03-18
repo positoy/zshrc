@@ -41,7 +41,7 @@ echo "bind y setw synchronize-panes" > ~/.tmux.conf
 brew install fd ripgrep fzf bat eza zoxide btop lazygit git-delta jq trash tldr starship
 
 # 2. GUI 애플리케이션 (Cask)
-brew install --cask raycast stats maccy iina alt-tab
+brew install --cask raycast stats maccy iina alt-tab cmux ghostty
 
 # install utils
 brew install tmux rg tree git nvm predatorray/brew/kubectl-tmux-exec johanhaleby/kubetail/kubetail kubectx
