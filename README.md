@@ -83,7 +83,8 @@ brew install git-delta    # Git diff 뷰어 (구문 하이라이팅)
 brew install jq           # JSON 처리 도구
 brew install tlrc         # tldr 커맨드 치트시트 (Rust 클라이언트)
 brew install tree         # 디렉토리 트리 출력
-
+brew install wget
+brew install hey
 # ===========================================
 # 7. GUI 앱 (brew install --cask)
 # ===========================================
