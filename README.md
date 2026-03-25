@@ -86,6 +86,7 @@ brew install tree         # 디렉토리 트리 출력
 brew install wget
 brew install hey
 brew install stern
+brew install bruno
 # ===========================================
 # 7. GUI 앱 (brew install --cask)
 # ===========================================
