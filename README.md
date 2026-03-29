@@ -59,6 +59,7 @@ nvm alias default 22
 # 5. SDKMAN 설치 + Java 21 기본 설정
 # ===========================================
 # SDKMAN 설치
+brew install bash
 curl -s "https://get.sdkman.io" | bash
 
 # SDKMAN 즉시 로드
