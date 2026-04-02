@@ -88,6 +88,7 @@ brew install wget
 brew install hey
 brew install stern
 brew install bruno
+brew install mycli
 # ===========================================
 # 7. GUI 앱 (brew install --cask)
 # ===========================================
