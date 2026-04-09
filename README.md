@@ -115,3 +115,14 @@ echo "설치가 완료되었습니다. 새 터미널을 열어주세요."
 echo "Powerlevel10k 초기 설정: p10k configure"
 ```
 
+## lazygit split diff 설정
+
+```yaml
+# ~/Library/Application\ Support/lazygit/config.yml
+gui:
+  sidePanelWidth: 0.2 # gives you more space to show things side-by-side
+git:
+  pagers:
+     - colorArg: always
+       pager: delta --dark --paging=never --syntax-theme base16-256 -s
+```
