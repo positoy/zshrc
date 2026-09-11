@@ -125,6 +125,9 @@ git:
        pager: delta --dark --paging=never --syntax-theme base16-256 -s
 ```
 
-## git
+## git 설정
+
+```bash
 # remove all local branches that were pruned from the remote
-# git config --global alias.gone '!git fetch -p && git branch -vv | awk "/: gone]/ && \$1 != \"*\" && \$1 != \"+\" {print \$1}" | xargs -n1 git branch -D'
+git config --global alias.gone '!git fetch -p && git branch -vv | awk "/: gone]/ && \$1 != \"*\" && \$1 != \"+\" {print \$1}" | xargs -n1 git branch -D'
+```
